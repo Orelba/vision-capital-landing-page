@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code for the Vision Capital Landing Page, a modern landing page based on the design provided in [Figma](https://www.figma.com/file/sY2wMvAmYEEQ4TqUeRs7KJ/Free-Landing-Page-Template-(Community)?node-id=59%3A470&mode=dev).
+This repository contains the source code for the Vision Capital Landing Page, a modern landing page based on the design provided in [Figma](https://www.figma.com/community/file/1109873477850722144).
 
 ## Preview
 
