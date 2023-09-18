@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  padding: 24px 240px;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-item {
+  color: var(--main-body, white);
+  padding: 4px;
+  text-decoration: none;
+}
