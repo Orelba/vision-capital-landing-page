@@ -1,0 +1,18 @@
+.section {
+  padding-left: 240px;
+  padding-right: 240px;
+  width: 100%;
+}
+
+.pad-both {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.pad-bottom {
+  padding-bottom: 200px;
+}
+
+.pad-top {
+  padding-top: 200px;
+}
