@@ -1,11 +1,11 @@
-import styles from "./section-two.module.css"
-import cx from "classnames"
-import Section from "../Section/Section"
+import styles from './section-two.module.css'
+import cx from 'classnames'
+import Section from '../Section/Section'
 
 export default function SectionTwo() {
   return (
     <Section>
-      <div className={cx(styles.container, "grid")}>
+      <div className={cx(styles.container, 'grid')}>
         <p className={styles.text}>
           <span>In the pipeline</span>
         </p>
