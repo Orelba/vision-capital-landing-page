@@ -1,13 +1,16 @@
 import styles from './button.module.css'
+import cx from 'classnames'
 
 export default function Button({ variant = 'primary', size = 'medium', children }) {
-  const classList = [
-    variant === 'primary' ? styles.primary : styles.secondary,
-    size === 'medium' ? styles.medium : styles.small
-  ]
-
   return (
-    <button className={classList.join(' ')}>
+    <button
+      className={cx({
+        [styles.primary]: variant === "primary",
+        [styles.secondary]: variant === "secondary",
+        [styles.medium]: size === "medium",
+        [styles.small]: size === "small",
+      })}
+    >
       {children}
     </button>
   )
