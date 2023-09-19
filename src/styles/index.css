@@ -32,9 +32,16 @@ body {
 
 #root { 
   height: 100%;
+  min-width: 1660px;
 }
 
 .grid {
   display: grid;
   grid-template: 1fr / repeat(12, 1fr);
+  gap: 0 20px;
+}
+
+.grid img {
+  display: block;
+  width: 100%;
 }
