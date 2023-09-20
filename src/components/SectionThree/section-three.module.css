@@ -1,0 +1,12 @@
+.header {
+  grid-column: 2 / 7;
+  width: 366px;
+}
+
+.list {
+  grid-column: 7 / 12;
+}
+
+.list li:not(:last-child) {
+  margin-bottom: 12px;
+}
