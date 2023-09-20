@@ -4,12 +4,11 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  /* padding: 178px 395px; */
   border-radius: 24px;
   height: 589px;
 
   background: #FBFAFF;
-  background-image: url('public/section-one-shape.svg');
+  background-image: url('/section-one-shape.svg');
   background-size: 100% 100%;
 }
 

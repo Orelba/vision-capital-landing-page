@@ -1,10 +1,10 @@
 import styles from './section-one.module.css'
-import Section from "../Section/Section"
+import Section from '../Section/Section'
 import Button from '../Button/Button'
 
 export default function SectionOne() {
   return (
-    <Section padding='bottom'>
+    <Section padding="bottom">
       <div className={styles.container}>
         <div className={styles.text}>
           <h1>Vision Capital</h1>
@@ -12,7 +12,7 @@ export default function SectionOne() {
         </div>
         <div className={styles.buttons}>
           <Button>I Need Funding</Button>
-          <Button variant='secondary'>Become an Investor</Button>
+          <Button variant="secondary">Become an Investor</Button>
         </div>
       </div>
     </Section>
