@@ -1,0 +1,5 @@
+.description {
+  color: var(--main-body, #23155B);
+  font-size: 1.125rem;
+  line-height: 155.556%;
+}
