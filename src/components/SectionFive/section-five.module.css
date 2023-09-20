@@ -1,5 +1,5 @@
 .bg {
-  border-radius: 250px 0 0 0;
+  border-radius: 0 250px 0 0;
   background: linear-gradient(180deg, #FBFAFF 29.73%, #FFF 100%);
   position: relative;
 }
@@ -12,8 +12,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 250px 0 0 0;
-  background: url('/section-four-shape.svg');
+  border-radius: 0 250px 0 0;
+  background: url('/section-five-shape.svg');
   background-size: 100% 100%;
 }
 
@@ -25,12 +25,9 @@
   z-index: 1;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-
+.header {
   grid-column: 2 / 12;
+  width: 887px;
 }
 
 .list {
@@ -41,11 +38,11 @@
   grid-column: 2 / 12;
 }
 
-.buttons {
-  width: 476px;
-  grid-column: 2 / 12;
+.purple {
+  color: var(--main-primary, #8053FF);
 }
 
-.buttons :first-child {
-  margin-right: 12px;
+.button {
+  grid-column: 2 / 12;
+  width: max-content;
 }
