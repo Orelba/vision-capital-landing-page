@@ -1,0 +1,44 @@
+.item {
+  background: var(--main-white, white);
+  box-shadow: 0px 14px 64px -4px rgba(35, 21, 91, 0.05), 0px 8px 12px -6px rgba(35, 21, 91, 0.05);
+  padding: 24px;
+  border-radius: 8px;
+  min-width: 580px;
+
+  display: flex;
+  gap: 12px;
+}
+
+.item-title {
+  color: var(--main-body, #23155B);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 155.556%;
+}
+
+.t-small {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.item-description {
+  color: var(--main-gray, #928CAB);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171.429%;
+}
+
+.number {
+  color: var(--main-primary, #8053FF);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.tick {
+  width: max-content !important;
+}
+
+.text-container :not(:last-child) {
+  margin-bottom: 4px;
+}
