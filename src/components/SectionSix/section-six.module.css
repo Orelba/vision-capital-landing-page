@@ -1,0 +1,49 @@
+.bg-logo {
+  position: relative;
+  height: 1030px;
+}
+
+.bg-logo::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 337px;
+  bottom: 332px;
+  width: 493px;
+  height: 595px;
+  background: url('/section-six-defipie-logo-bg.svg');
+}
+
+.bg-logo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 200px;
+  width: 590px;
+  height: 830px;
+  border-radius: 0 200px 200px 0;
+  background: url('/section-six-worker.png');
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  grid-column: 6 / 12;
+  z-index: 1;
+}
+
+.img-margin {
+  margin-bottom: 16px;
+}
+
+.header {
+  width: 415px;
+  margin-bottom: 52px;
+}
+
+.descriptions :first-child {
+  margin-bottom: 65px;
+}
