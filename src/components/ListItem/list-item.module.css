@@ -35,10 +35,6 @@
   font-weight: 700;
 }
 
-.tick {
-  width: max-content !important;
-}
-
 .text-container :not(:last-child) {
   margin-bottom: 4px;
 }
