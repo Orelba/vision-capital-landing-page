@@ -1,9 +1,12 @@
+import { forwardRef } from 'react'
 import styles from './section.module.css'
 import cx from 'classnames'
 
-export default function Section({ padding, className, children }) {
+const Section = forwardRef(function Section({ padding, className, children }, ref) {
+
   return (
     <div
+      ref={ref}
       className={cx(styles.section, className, {
         [styles['pad-both']]: padding === 'both',
         [styles['pad-bottom']]: padding === 'bottom',
@@ -13,4 +16,6 @@ export default function Section({ padding, className, children }) {
       {children}
     </div>
   )
-}
+})
+
+export default Section

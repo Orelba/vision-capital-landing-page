@@ -1,12 +1,13 @@
+import { forwardRef } from 'react'
 import styles from './section-five.module.css'
 import Section from '../../Section/Section'
 import Header from '../../Header/Header'
 import ListItem from '../../ListItem/ListItem'
 import Button from '../../Button/Button'
 
-export default function SectionFive() {
+const SectionFive = forwardRef(function SectionFive(props, ref) {
   return (
-    <Section padding="both" className={styles.bg}>
+    <Section padding="both" className={styles.bg} ref={ref}>
       <div className={styles.container}>
         <div className="grid">
           <Header
@@ -46,4 +47,6 @@ export default function SectionFive() {
       </div>
     </Section>
   )
-}
+})
+
+export default SectionFive

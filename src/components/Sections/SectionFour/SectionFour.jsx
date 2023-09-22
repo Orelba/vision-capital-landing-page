@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import styles from './section-four.module.css'
 import Section from '../../Section/Section'
 import Header from '../../Header/Header'
@@ -5,9 +6,9 @@ import Description from '../../Description/Description'
 import ListItem from '../../ListItem/ListItem'
 import Button from '../../Button/Button'
 
-export default function SectionFour() {
+const SectionFour = forwardRef(function SectionFour(props, ref) {
   return (
-    <Section padding="both" className={styles.bg}>
+    <Section padding="both" className={styles.bg} ref={ref}>
       <div className={styles.container}>
         <div className="grid">
           <div className={styles['text-container']}>
@@ -82,4 +83,6 @@ export default function SectionFour() {
       </div>
     </Section>
   )
-}
+})
+
+export default SectionFour
