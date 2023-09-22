@@ -27,16 +27,16 @@ export default function SectionEight() {
         <div className={styles['col-right']}>
           <div className={styles.social}>
             <a href="#">
-              <img src="/social/facebook.svg" alt="Facebook icon" />
+              <img src="social/facebook.svg" alt="Facebook icon" />
             </a>
             <a href="#">
-              <img src="/social/twitter.svg" alt="Twitter icon" />
+              <img src="social/twitter.svg" alt="Twitter icon" />
             </a>
             <a href="#">
-              <img src="/social/telegram.svg" alt="Telegram icon" />
+              <img src="social/telegram.svg" alt="Telegram icon" />
             </a>
             <a href="https://github.com/Orelba/vision-capital-landing-page" target='_blank' rel="noreferrer">
-              <img src="/social/github.svg" alt="Github icon" />
+              <img src="social/github.svg" alt="Github icon" />
             </a>
           </div>
           <div className={styles.links}>

@@ -15,7 +15,7 @@ export default function ListItem({ children, number }) {
     <li className={styles.item}>
       <span className={styles.number}>
         {number ? number :
-          <img src="/tick.svg" alt="Tick Icon" height="24" width="24" className={styles.tick} />
+          <img src="tick.svg" alt="Tick Icon" height="24" width="24" className={styles.tick} />
         }
       </span>
       <div className={styles['text-container']}>

@@ -9,7 +9,7 @@ export default function SectionSix() {
     <Section padding="bottom" className={styles['bg-logo']}>
       <div className={cx('grid', styles['align-center'])}>
         <div className={styles.container}>
-          <img src="/favicon.svg" alt="Logo" height="119" width="104" className={styles['img-margin']} />
+          <img src="favicon.svg" alt="Logo" height="119" width="104" className={styles['img-margin']} />
           <Header
             text="Brought to you by DeFiPie"
             highlight="Brought to you"
