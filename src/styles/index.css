@@ -35,6 +35,15 @@ body {
   min-width: 1886px;
 }
 
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .grid {
   display: grid;
   grid-template: 1fr / repeat(12, 1fr);
