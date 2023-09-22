@@ -1,9 +1,9 @@
 import styles from './section-eight.module.css'
 import cx from 'classnames'
-import Section from '../Section/Section'
-import Header from '../Header/Header'
-import Description from '../Description/Description'
-import Button from '../Button/Button'
+import Section from '../../Section/Section'
+import Header from '../../Header/Header'
+import Description from '../../Description/Description'
+import Button from '../../Button/Button'
 
 export default function SectionEight() {
   return (
@@ -35,7 +35,7 @@ export default function SectionEight() {
             <a href="#">
               <img src="/social/telegram.svg" alt="Telegram icon" />
             </a>
-            <a href="https://github.com/Orelba/vision-capital-landing-page">
+            <a href="https://github.com/Orelba/vision-capital-landing-page" target='_blank' rel="noreferrer">
               <img src="/social/github.svg" alt="Github icon" />
             </a>
           </div>
@@ -78,10 +78,10 @@ function Form() {
           </label>
         </div>
       </div>
-      <Button 
-      type="button" 
-      size="small"
-      className={styles['form-button']}
+      <Button
+        type="button"
+        size="small"
+        className={styles['form-button']}
       >
         Send
       </Button>

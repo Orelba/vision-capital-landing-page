@@ -1,7 +1,7 @@
 import styles from './section-three.module.css'
-import Section from '../Section/Section'
-import Header from '../Header/Header'
-import ListItem from '../ListItem/ListItem'
+import Section from '../../Section/Section'
+import Header from '../../Header/Header'
+import ListItem from '../../ListItem/ListItem'
 
 export default function SectionThree() {
   return (

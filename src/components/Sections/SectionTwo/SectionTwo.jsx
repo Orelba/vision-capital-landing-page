@@ -1,4 +1,4 @@
-import ShowcaseSection from '../ShowcaseSection/ShowcaseSection'
+import ShowcaseSection from '../../ShowcaseSection/ShowcaseSection'
 
 export default function SectionTwo() {
   return (

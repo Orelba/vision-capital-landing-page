@@ -1,8 +1,8 @@
 import styles from './section-five.module.css'
-import Section from '../Section/Section'
-import Header from '../Header/Header'
-import ListItem from '../ListItem/ListItem'
-import Button from '../Button/Button'
+import Section from '../../Section/Section'
+import Header from '../../Header/Header'
+import ListItem from '../../ListItem/ListItem'
+import Button from '../../Button/Button'
 
 export default function SectionFive() {
   return (

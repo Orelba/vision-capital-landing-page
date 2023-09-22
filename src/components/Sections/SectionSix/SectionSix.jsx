@@ -1,8 +1,8 @@
 import styles from './section-six.module.css'
 import cx from 'classnames'
-import Section from '../Section/Section'
-import Header from '../Header/Header'
-import Description from '../Description/Description'
+import Section from '../../Section/Section'
+import Header from '../../Header/Header'
+import Description from '../../Description/Description'
 
 export default function SectionSix() {
   return (

@@ -1,12 +1,12 @@
 import NavBar from './components/NavBar/NavBar'
-import SectionOne from './components/SectionOne/SectionOne'
-import SectionTwo from './components/SectionTwo/SectionTwo'
-import SectionThree from './components/SectionThree/SectionThree'
-import SectionFour from './components/SectionFour/SectionFour'
-import SectionFive from './components/SectionFive/SectionFive'
-import SectionSix from './components/SectionSix/SectionSix'
-import SectionSeven from './components/SectionSeven/SectionSeven'
-import SectionEight from './components/SectionEight/SectionEight'
+import SectionOne from './components/Sections/SectionOne/SectionOne'
+import SectionTwo from './components/Sections/SectionTwo/SectionTwo'
+import SectionThree from './components/Sections/SectionThree/SectionThree'
+import SectionFour from './components/Sections/SectionFour/SectionFour'
+import SectionFive from './components/Sections/SectionFive/SectionFive'
+import SectionSix from './components/Sections/SectionSix/SectionSix'
+import SectionSeven from './components/Sections/SectionSeven/SectionSeven'
+import SectionEight from './components/Sections/SectionEight/SectionEight'
 
 function App() {
 

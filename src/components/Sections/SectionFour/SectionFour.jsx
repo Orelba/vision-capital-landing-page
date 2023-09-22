@@ -1,9 +1,9 @@
 import styles from './section-four.module.css'
-import Section from '../Section/Section'
-import Header from '../Header/Header'
-import Description from '../Description/Description'
-import ListItem from '../ListItem/ListItem'
-import Button from '../Button/Button'
+import Section from '../../Section/Section'
+import Header from '../../Header/Header'
+import Description from '../../Description/Description'
+import ListItem from '../../ListItem/ListItem'
+import Button from '../../Button/Button'
 
 export default function SectionFour() {
   return (

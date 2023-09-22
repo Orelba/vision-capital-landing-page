@@ -1,6 +1,6 @@
 import styles from './section-one.module.css'
-import Section from '../Section/Section'
-import Button from '../Button/Button'
+import Section from '../../Section/Section'
+import Button from '../../Button/Button'
 
 export default function SectionOne() {
   return (
